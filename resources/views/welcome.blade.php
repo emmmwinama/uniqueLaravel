@@ -11,7 +11,7 @@
     <div class="container pb-5">
         <section id="introduction" class="py-5">
             <div class="text-center introduction">
-                <h2>WE ARE A</h2>
+                <h2>WE ARE THE BEST</h2>
                 <div class="mx-auto w-80 introduction-body">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora quis amet enim magni velit architecto fugiat deserunt placeat consectetur error. Officiis consequuntur minus ab laboriosam reiciendis quam delectus tempore, molestias deserunt quibusdam veniam cumque fugit dolore quod id voluptates? Ullam odio non at sit quae aliquid delectus nihil eos? Nemo iusto beatae debitis ipsum porro tenetur totam animi sunt quam exercitationem, eum praesentium itaque consequatur nihil aliquam voluptas optio odio expedita deserunt saepe illo aliquid recusandae. Facere quam dolores praesentium repellendus fugit repellat! Deleniti sint aliquam maxime ratione voluptatum voluptates quaerat. Iure hic dolores laborum quasi, eius officia? Saepe, nobis!</p>
                     <a href="/about" class="btn btn-lg btn-primary" style="border-radius: 100px">SEE MORE</a>
