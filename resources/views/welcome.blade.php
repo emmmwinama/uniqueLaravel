@@ -5,7 +5,7 @@
     <div class="text-white border-0 card bg-dark rounded-0" style="height: 600px; overflow-y: hidden;">
         <img class="card-img" src="{{ asset('images/mansion.jpg') }}" alt="Card image" style="width: 100%; height: 100%; object-fit: cover;">
         <div class="container px-0 card-img-overlay">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title"></h5>
         </div>
     </div>
     <div class="container pb-5">
@@ -67,48 +67,49 @@
             </div>
         </section>
         <section id="team" class="py-5">
-            <div class="text-center">
+            <div class="py-5 text-center">
                 <h2 class="text-center">OUR TEAM</h2>
             </div>
             <div class="row">
                 <!-- Team member -->
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="image-flip" >
-                        <div class="mainflip flip-0">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
                             <div class="frontside">
                                 <div class="card">
                                     <div class="text-center card-body">
-                                        <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                        <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        <p><img class=" img-fluid" src="{{ asset('images/team/team 1.jpg') }}" alt="card image"></p>
+                                        <h4 class="card-title">Jimmy Hendrix</h4>
+                                        <h5>UI Designer</h5>
+                                        <p class="card-text">Brief decription of member as an introduction..</p>
+                                        <a href="https://www.linkedin.com/in/emmmwinama" class="btn btn-primary btn-sm"><i class="fab fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="backside">
                                 <div class="card">
                                     <div class="mt-4 text-center card-body">
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                        <h4 class="card-title">Collins Darmer</h4>
+                                        <p class="card-text">Brief decription of member as an introduction..Brief decription of member as an introduction..Brief decription of member as an introduction..</p>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-facebook"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-facebook"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-twitter"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-skype"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-skype"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-google"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-google"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -126,37 +127,38 @@
                             <div class="frontside">
                                 <div class="card">
                                     <div class="text-center card-body">
-                                        <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                        <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        <p><img class=" img-fluid" src="{{ asset('images/team/team 2.jpg') }}" alt="card image"></p>
+                                        <h4 class="card-title">Collins Darmer</h4>
+                                        <h5>Junior Developer</h5>
+                                        <p class="card-text">Brief decription of member as an introduction..</p>
+                                        <a href="https://www.linkedin.com/in/emmmwinama" class="btn btn-primary btn-sm"><i class="fab fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="backside">
                                 <div class="card">
                                     <div class="mt-4 text-center card-body">
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                        <h4 class="card-title">Collins Darmer</h4>
+                                        <p class="card-text">Brief decription of member as an introduction..Brief decription of member as an introduction..Brief decription of member as an introduction..</p>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-facebook"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-facebook"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-twitter"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-skype"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-skype"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-google"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-google"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -174,37 +176,38 @@
                             <div class="frontside">
                                 <div class="card">
                                     <div class="text-center card-body">
-                                        <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                        <a href="https://www.fiverr.com/share/qb8D02" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        <p><img class=" img-fluid" src="{{ asset('images/team/team 3.jpg') }}" alt="card image"></p>
+                                        <h4 class="card-title">Emmanuel Mwinama</h4>
+                                        <h5>Web Designer</h5>
+                                        <p class="card-text">Brief decription of member as an introduction..</p>
+                                        <a href="https://www.linkedin.com/in/emmmwinama" class="btn btn-primary btn-sm"><i class="fab fa-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="backside">
                                 <div class="card">
                                     <div class="mt-4 text-center card-body">
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                        <h4 class="card-title text-bold">Emmanuel Mwinama</h4>
+                                        <p class="card-text">Brief decription of member as an introduction..Brief decription of member as an introduction..Brief decription of member as an introduction..</p>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-facebook"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-facebook"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-twitter"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-skype"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-skype"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-google"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.linkedin.com/in/emmmwinama">
+                                                    <i class="fab fa-google"></i>
                                                 </a>
                                             </li>
                                         </ul>
