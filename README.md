@@ -10,8 +10,8 @@ This is the landing page of the site and it has some introductory sections that 
 
 ### Screen captures
 
-![Home !](/public/images/home 1.jpg)
-![Home !](/public/images/home 2.jpg)
+![Home !](./public/images/home 1.jpg)
+![Home !](./public/images/home 2.jpg)
 ![Home !](/public/images/home 3.jpg)
 ![Home !](/public/images/home 4.jpg)
 ![Home !](/public/images/home 5.jpg)
