@@ -35,16 +35,16 @@ This is the most important page on the entire site as it serves the primary purp
 ![Home !](./properties2.png)
 
 
-< To run this on your machine, make sure you have Php 7.2.5
-<
-< Please follow and execute the following in the project folder
-<< 1. composer install
-<<
-<< 2. npm install
-<<
-<< 3. php artisan storage:link
+> To run this on your machine, make sure you have Php 7.2.5
+>
+> Please follow and execute the following in the project folder
+>> 1. composer install
+>>
+>> 2. npm install
+>>
+>> 3. php artisan storage:link
 
 Now you are ready to run the application using 
-<   php artisan migrate
-<
-<   php artisan serve
+>   php artisan migrate
+>
+>   php artisan serve
