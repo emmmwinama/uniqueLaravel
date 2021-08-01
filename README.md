@@ -10,11 +10,11 @@ This is the landing page of the site and it has some introductory sections that 
 
 ### Screen captures
 
-![Home !](./home1.jpg)
-![Home !](./public/images/home 2.png)
-![Home !](/public/images/home 3.jpg)
-![Home !](/public/images/home 4.jpg)
-![Home !](/public/images/home 5.jpg)
+![Home !](./Home1.png)
+![Home !](./Home2.png)
+![Home !](./Home3.png)
+![Home !](./Home4.png)
+![Home !](./Home5.png)
 
 ## Services page
 
@@ -22,8 +22,8 @@ This page captures the services that are being offered by Unique Property Consul
 
 ### Screen captures
 
-![Home !](/public/images/Services 1.jpg)
-![Home !](/public/images/Services 2.jpg)
+![Home !](./Services1.png)
+![Home !](./Services2.png)
 
 ## Properties page
 
@@ -31,8 +31,8 @@ This is the most important page on the entire site as it serves the primary purp
 
 ### Screen captures
 
-![Home !](/public/images/Services 2.jpg)
-![Home !](/public/images/Services 2.jpg)
+![Home !](./properties1.png)
+![Home !](./properties2.png)
 
 
 ;;;
